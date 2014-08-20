@@ -1,0 +1,54 @@
+h1 {
+	font-family: Arial;
+	font-size: 30px;
+	color: white;
+}
+
+h2 {
+	font-family: courier;
+	font-size: 14px;
+	color: white;
+}
+
+body {
+	background-image: url("Ocean_Memory.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#center_body_container {
+	display: table;
+	height: 300px;
+	width:100%;
+	position:center;
+	vertical-align: middle;
+	margin-left: 20px;
+	table-layout: fixed;
+}
+
+#center_body {
+	display: table-cell;
+	vertical-align: middle; 
+	text-align: left;
+	size: relative;
+	color: white;
+	font-family: helvetica;
+	font-size: 12px;
+	position: relative;
+	top: 20px;
+	left: 20px; 
+	text-indent: 0px;
+	white-space: 20px;
+	overflow: visible;
+}
+
+div {
+	margin:0 auto;
+}
+
+p {
+	font-family: monaco;
+	font-size: 14px;
+
+}
